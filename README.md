@@ -7,3 +7,11 @@ Because of the quality of single frames, just for calculate the pose, you can ch
 Here, we have an example of how it works for a video of a skier going uphill
 
 ![alt text](https://github.com/TuronLab/PoseDetection/blob/main/Example.gif "Example Video Pose detection")
+
+# Models for Pose Detection
+
+For this approach, we have used the pre-trained models weights files using the scripts provided [here](https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/master/models). This models, based in the architecture described in [Zhe Cao, et al.](https://arxiv.org/abs/1611.08050), has been trained for two different datasets: [COCO](https://cocodataset.org/#keypoints-2018), and [MPI](http://human-pose.mpi-inf.mpg.de/). The model trained for COCO, produces 18 points, and MPII, produces 15. For this application, we have decided to use MPII model, because it has cross country skiers in the dataset.
+
+# Model for Person Detection
+
+For the recognition of people in images, we have used the pre-trained model YOLOv3-spp that you can download [here](https://pjreddie.com/darknet/yolo/)
