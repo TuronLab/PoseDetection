@@ -6,4 +6,4 @@ Because of the quality of single frames, just for calculate the pose, you can ch
 
 Here, we have an example of how it works for a video of a skier going uphill
 
-![alt text](https://github.com/TuronLab/PoseDetection/Example.gif "Example Video Pose detection")
+![alt text](https://github.com/TuronLab/PoseDetection/blob/main/Example.gif "Example Video Pose detection")
