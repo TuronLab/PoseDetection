@@ -4,7 +4,7 @@ This is a quick attempt to calculate the pose of a single person in a video or i
 
 Because of the quality of single frames, just for calculate the pose, you can choose an option to blurr vertical lines between frames with a gaussian filter (5,5) in the video notebooks. This blurring won't be in final result, and it uses to improve the result.
 
-Here, we have an example of how it works for a video of a skier going uphill
+Here, we have an example of how it works for a video of a skier going uphill.
 
 ![alt text](https://github.com/TuronLab/PoseDetection/blob/main/Example.gif "Example Video Pose detection")
 
@@ -14,4 +14,4 @@ For this approach, we have used the pre-trained models weights files using the s
 
 # Model for Person Detection
 
-For the recognition of people in images, we have used the pre-trained model YOLOv3-spp that you can download [here](https://pjreddie.com/darknet/yolo/)
+For the recognition of people in images, we have used the pre-trained model YOLOv3-spp that you can download [here](https://pjreddie.com/darknet/yolo/).
